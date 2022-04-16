@@ -99,6 +99,7 @@ body {
 .work-button:hover,
 .work-button:focus {
   color: blue;
+  background-color: tomato;
 }
 
 .work-content {
