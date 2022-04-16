@@ -1,0 +1,58 @@
+:root {
+  --body-bg-color: #ffffff;
+  --body-text-color: #000000;
+  --navigation_bar-color: #000000;
+  --header-logo-color: #231f20;
+  --navigation-item-color: #000000;
+  --navigation-item-active-color: #f7941e;
+  --navigation-btn-color: #f7941e;
+  --navigation-btn-bg-color: #ffffff;
+  --navigation-btn-active-color: #ffffff;
+  --navigation-btn-bg-active-color: #f7941e;
+  --navigation-btn-border-color: #f7941e;
+  --find-section-bg-color: #ffffff;
+  --find-section-text-content-bg-color: #f1f1f2;
+  --find-section-main-text-color: #000000;
+  --find-section-description-text-color: #000000;
+  --find-section-btn-color: #ffffff;
+  --find-section-btn_bg-color: #f7941e;
+  --find-section-btn-active-color: #e28517;
+  --work-section-text-content-color: #f1f1f2;
+  --work-section-main-text-color: #000000;
+  --work-section-description-text-color: #000000;
+  --work-section-btn-color: #f7941e;
+  --work-section-btn-active-color: #ffffff;
+  --work-section-btn-border-color: #f7941e;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: var(--body-bg-color);
+  color: var(--body-text-color);
+}
